@@ -80,7 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/C++/poo2/complex.cpp">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/complex.h">
+			<Option target="poo2"/>
+		</Unit>
 		<Unit filename="D:/C++/poo2/main.cpp">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/obarray.cpp">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/obarray.h">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/object.h">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/point.cpp">
+			<Option target="poo2"/>
+		</Unit>
+		<Unit filename="D:/C++/poo2/point.h">
 			<Option target="poo2"/>
 		</Unit>
 		<Unit filename="D:/C++/poo2/CMakeLists.txt">

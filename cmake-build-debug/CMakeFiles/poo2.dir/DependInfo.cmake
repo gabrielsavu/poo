@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/C++/poo2/complex.cpp" "D:/C++/poo2/cmake-build-debug/CMakeFiles/poo2.dir/complex.cpp.obj"
   "D:/C++/poo2/main.cpp" "D:/C++/poo2/cmake-build-debug/CMakeFiles/poo2.dir/main.cpp.obj"
+  "D:/C++/poo2/obarray.cpp" "D:/C++/poo2/cmake-build-debug/CMakeFiles/poo2.dir/obarray.cpp.obj"
+  "D:/C++/poo2/point.cpp" "D:/C++/poo2/cmake-build-debug/CMakeFiles/poo2.dir/point.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

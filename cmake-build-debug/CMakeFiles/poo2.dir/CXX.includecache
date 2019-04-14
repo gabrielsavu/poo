@@ -6,7 +6,39 @@
 
 #IncludeRegexTransform: 
 
+D:/C++/poo2/complex.cpp
+complex.h
+D:/C++/poo2/complex.h
+
+D:/C++/poo2/complex.h
+iostream
+-
+object.h
+D:/C++/poo2/object.h
+
 D:/C++/poo2/main.cpp
 iostream
 -
+obarray.h
+D:/C++/poo2/obarray.h
+point.h
+D:/C++/poo2/point.h
+
+D:/C++/poo2/obarray.h
+iostream
+-
+object.h
+D:/C++/poo2/object.h
+
+D:/C++/poo2/object.h
+
+D:/C++/poo2/point.cpp
+point.h
+D:/C++/poo2/point.h
+
+D:/C++/poo2/point.h
+iostream
+-
+object.h
+D:/C++/poo2/object.h
 

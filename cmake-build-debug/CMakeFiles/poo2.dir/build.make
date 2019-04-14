@@ -69,19 +69,64 @@ CMakeFiles/poo2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo2.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++\poo2\main.cpp -o CMakeFiles\poo2.dir\main.cpp.s
 
+CMakeFiles/poo2.dir/point.cpp.obj: CMakeFiles/poo2.dir/flags.make
+CMakeFiles/poo2.dir/point.cpp.obj: ../point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\poo2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/poo2.dir/point.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo2.dir\point.cpp.obj -c D:\C++\poo2\point.cpp
+
+CMakeFiles/poo2.dir/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo2.dir/point.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\poo2\point.cpp > CMakeFiles\poo2.dir\point.cpp.i
+
+CMakeFiles/poo2.dir/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo2.dir/point.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++\poo2\point.cpp -o CMakeFiles\poo2.dir\point.cpp.s
+
+CMakeFiles/poo2.dir/obarray.cpp.obj: CMakeFiles/poo2.dir/flags.make
+CMakeFiles/poo2.dir/obarray.cpp.obj: ../obarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\poo2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/poo2.dir/obarray.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo2.dir\obarray.cpp.obj -c D:\C++\poo2\obarray.cpp
+
+CMakeFiles/poo2.dir/obarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo2.dir/obarray.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\poo2\obarray.cpp > CMakeFiles\poo2.dir\obarray.cpp.i
+
+CMakeFiles/poo2.dir/obarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo2.dir/obarray.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++\poo2\obarray.cpp -o CMakeFiles\poo2.dir\obarray.cpp.s
+
+CMakeFiles/poo2.dir/complex.cpp.obj: CMakeFiles/poo2.dir/flags.make
+CMakeFiles/poo2.dir/complex.cpp.obj: ../complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\poo2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/poo2.dir/complex.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\poo2.dir\complex.cpp.obj -c D:\C++\poo2\complex.cpp
+
+CMakeFiles/poo2.dir/complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/poo2.dir/complex.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\poo2\complex.cpp > CMakeFiles\poo2.dir\complex.cpp.i
+
+CMakeFiles/poo2.dir/complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/poo2.dir/complex.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++\poo2\complex.cpp -o CMakeFiles\poo2.dir\complex.cpp.s
+
 # Object files for target poo2
 poo2_OBJECTS = \
-"CMakeFiles/poo2.dir/main.cpp.obj"
+"CMakeFiles/poo2.dir/main.cpp.obj" \
+"CMakeFiles/poo2.dir/point.cpp.obj" \
+"CMakeFiles/poo2.dir/obarray.cpp.obj" \
+"CMakeFiles/poo2.dir/complex.cpp.obj"
 
 # External object files for target poo2
 poo2_EXTERNAL_OBJECTS =
 
 poo2.exe: CMakeFiles/poo2.dir/main.cpp.obj
+poo2.exe: CMakeFiles/poo2.dir/point.cpp.obj
+poo2.exe: CMakeFiles/poo2.dir/obarray.cpp.obj
+poo2.exe: CMakeFiles/poo2.dir/complex.cpp.obj
 poo2.exe: CMakeFiles/poo2.dir/build.make
 poo2.exe: CMakeFiles/poo2.dir/linklibs.rsp
 poo2.exe: CMakeFiles/poo2.dir/objects1.rsp
 poo2.exe: CMakeFiles/poo2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\poo2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable poo2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\poo2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable poo2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\poo2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -122,6 +122,33 @@ poo2/fast:
 	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/build
 .PHONY : poo2/fast
 
+complex.obj: complex.cpp.obj
+
+.PHONY : complex.obj
+
+# target to build an object file
+complex.cpp.obj:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/complex.cpp.obj
+.PHONY : complex.cpp.obj
+
+complex.i: complex.cpp.i
+
+.PHONY : complex.i
+
+# target to preprocess a source file
+complex.cpp.i:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/complex.cpp.i
+.PHONY : complex.cpp.i
+
+complex.s: complex.cpp.s
+
+.PHONY : complex.s
+
+# target to generate assembly for a file
+complex.cpp.s:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/complex.cpp.s
+.PHONY : complex.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +176,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+obarray.obj: obarray.cpp.obj
+
+.PHONY : obarray.obj
+
+# target to build an object file
+obarray.cpp.obj:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/obarray.cpp.obj
+.PHONY : obarray.cpp.obj
+
+obarray.i: obarray.cpp.i
+
+.PHONY : obarray.i
+
+# target to preprocess a source file
+obarray.cpp.i:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/obarray.cpp.i
+.PHONY : obarray.cpp.i
+
+obarray.s: obarray.cpp.s
+
+.PHONY : obarray.s
+
+# target to generate assembly for a file
+obarray.cpp.s:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/obarray.cpp.s
+.PHONY : obarray.cpp.s
+
+point.obj: point.cpp.obj
+
+.PHONY : point.obj
+
+# target to build an object file
+point.cpp.obj:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/point.cpp.obj
+.PHONY : point.cpp.obj
+
+point.i: point.cpp.i
+
+.PHONY : point.i
+
+# target to preprocess a source file
+point.cpp.i:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/point.cpp.i
+.PHONY : point.cpp.i
+
+point.s: point.cpp.s
+
+.PHONY : point.s
+
+# target to generate assembly for a file
+point.cpp.s:
+	$(MAKE) -f CMakeFiles\poo2.dir\build.make CMakeFiles/poo2.dir/point.cpp.s
+.PHONY : point.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +239,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... poo2
 	@echo ... edit_cache
+	@echo ... complex.obj
+	@echo ... complex.i
+	@echo ... complex.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... obarray.obj
+	@echo ... obarray.i
+	@echo ... obarray.s
+	@echo ... point.obj
+	@echo ... point.i
+	@echo ... point.s
 .PHONY : help
 
 
